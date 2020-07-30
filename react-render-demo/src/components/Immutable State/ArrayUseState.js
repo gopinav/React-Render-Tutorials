@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const initState = ['Bruce', 'Wayne']
 export const ArrayUseState = () => {
-  const [persons, setPerson] = useState(initState)
+  const [persons, setPersons] = useState(initState)
   const handleClick = () => {
     // persons.push('Clark')
     // persons.push('Kent')
@@ -11,7 +11,7 @@ export const ArrayUseState = () => {
     const newPersons = [...persons]
     newPersons.push('Clark')
     newPersons.push('Kent')
-    setPerson(newPersons)
+    setPersons(newPersons)
   }
   console.log('ArrayUseState Render')
   return (
