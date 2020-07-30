@@ -12,7 +12,7 @@ const reducer = (state, action) => {
     newState.push('Clark')
     newState.push('Kent')
     return newState
-    case 'resetName':
+    case 'resetNames':
       return initialState
     default:
       return state
@@ -26,6 +26,7 @@ export const ArrayUseReducer = () => {
   return (
     <div>
       <button onClick={() => dispatch('addNames')}>Add names</button>
+      <button onClick={() => dispatch('resetNames')}>Reset names</button>
       {persons.map(person => (
         <div key={person}>{person}</div>
       ))}
