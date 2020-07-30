@@ -5,6 +5,7 @@ import { UseReducer } from './components/UseReducer/UseReducer'
 import { ObjectUseState } from './components/Immutable State/ObjectUseState'
 import { ArrayUseState } from './components/Immutable State/ArrayUseState'
 import { ObjectUseReducer } from './components/Immutable State/ObjectUseReducer'
+import { ArrayUseReducer } from './components/Immutable State/ArrayUseReducer'
 
 function App () {
   return (
@@ -13,7 +14,8 @@ function App () {
       {/* <UseReducer /> */}
       {/* <ObjectUseState /> */}
       {/* <ArrayUseState /> */}
-      <ObjectUseReducer />
+      {/* <ObjectUseReducer /> */}
+      <ArrayUseReducer />
     </div>
   )
 }
