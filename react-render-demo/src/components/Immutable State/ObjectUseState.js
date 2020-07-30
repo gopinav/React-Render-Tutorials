@@ -6,7 +6,7 @@ const initState = {
 }
 export const ObjectUseState = () => {
   const [person, setPerson] = useState(initState)
-  const handleClick = () => {
+  const changeName = () => {
     // person.fname = 'Clark'
     // person.lname = 'Kent'
     // setPerson(person)
@@ -18,7 +18,7 @@ export const ObjectUseState = () => {
   console.log('ObjectUseState Render')
   return (
     <div>
-      <button onClick={handleClick}>{person.fname} {person.lname}</button>
+      <button onClick={changeName}>{person.fname} {person.lname}</button>
     </div>
   )
 }
