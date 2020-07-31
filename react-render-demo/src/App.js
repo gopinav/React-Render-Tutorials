@@ -6,6 +6,7 @@ import { ObjectUseState } from './components/Immutable State/ObjectUseState'
 import { ArrayUseState } from './components/Immutable State/ArrayUseState'
 import { ObjectUseReducer } from './components/Immutable State/ObjectUseReducer'
 import { ArrayUseReducer } from './components/Immutable State/ArrayUseReducer'
+import { Parent } from './components/Parent Child/Parent'
 
 function App () {
   return (
@@ -15,7 +16,8 @@ function App () {
       {/* <ObjectUseState /> */}
       {/* <ArrayUseState /> */}
       {/* <ObjectUseReducer /> */}
-      <ArrayUseReducer />
+      {/* <ArrayUseReducer /> */}
+      <Parent />
     </div>
   )
 }
