@@ -7,6 +7,10 @@ import { ArrayUseState } from './components/Immutable State/ArrayUseState'
 import { ObjectUseReducer } from './components/Immutable State/ObjectUseReducer'
 import { ArrayUseReducer } from './components/Immutable State/ArrayUseReducer'
 import { Parent } from './components/Parent Child/Parent'
+import { ParentOne } from './components/Optimization/ParentOne'
+import { OptimizedParentOne } from './components/Optimization/OptimizedParentOne'
+import { ChildOne } from './components/Optimization/ChildOne'
+import { GrandParent } from './components/Optimization/GrandParent'
 
 function App () {
   return (
@@ -17,7 +21,12 @@ function App () {
       {/* <ArrayUseState /> */}
       {/* <ObjectUseReducer /> */}
       {/* <ArrayUseReducer /> */}
-      <Parent />
+      {/* <Parent /> */}
+      {/* <ParentOne /> */}
+      {/* <OptimizedParentOne>
+        <ChildOne />
+      </OptimizedParentOne> */}
+      <GrandParent />
     </div>
   )
 }
