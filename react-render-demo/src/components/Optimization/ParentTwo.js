@@ -8,8 +8,8 @@ export const ParentTwo = () => {
   console.log('ParentTwo Render')
   return (
     <div>
-      <button onClick={() => setCount(c => c + 1)}>Count - {count}</button>
       <button onClick={() => setName('Codevolution')}>Change name</button>
+      <button onClick={() => setCount(c => c + 1)}>Count - {count}</button>
       {/* <ChildTwo name={name} /> */}
       <MemoizedChildTwo name={name} />
     </div>
