@@ -11,6 +11,7 @@ import { ParentOne } from './components/Optimization/ParentOne'
 import { OptimizedParentOne } from './components/Optimization/OptimizedParentOne'
 import { ChildOne } from './components/Optimization/ChildOne'
 import { GrandParent } from './components/Optimization/GrandParent'
+import { ParentTwo } from './components/Optimization/ParentTwo'
 
 function App () {
   return (
@@ -26,7 +27,8 @@ function App () {
       {/* <OptimizedParentOne>
         <ChildOne />
       </OptimizedParentOne> */}
-      <GrandParent />
+      {/* <GrandParent /> */}
+      <ParentTwo />
     </div>
   )
 }
