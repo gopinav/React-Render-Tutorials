@@ -14,6 +14,7 @@ import { GrandParent } from './components/Optimization/GrandParent'
 import { ParentTwo } from './components/Optimization/ParentTwo'
 import { ParentThree } from './components/Incorrect Optimization/ParentThree.js'
 import { ParentFour } from './components/Incorrect Optimization/ParentFour'
+import { ContextParent } from './components/Context/ContextParent'
 
 function App () {
   return (
@@ -32,7 +33,8 @@ function App () {
       {/* <GrandParent /> */}
       {/* <ParentTwo /> */}
       {/* <ParentThree /> */}
-      <ParentFour />
+      {/* <ParentFour /> */}
+      <ContextParent />
     </div>
   )
 }
