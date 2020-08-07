@@ -29,12 +29,7 @@ export const ChildC = () => {
   return (
     <>
       <div>Child C - Count = {count}</div>
-      {/* <ChildD /> */}
     </>
   )
 }
 
-// export const ChildD = () => {
-//   console.log('Child D Render')
-//   return <div>Child D</div>
-// }
